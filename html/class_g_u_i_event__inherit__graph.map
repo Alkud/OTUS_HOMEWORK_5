@@ -1,0 +1,5 @@
+<map id="GUIEvent" name="GUIEvent">
+<area shape="rect" id="node2" href="$class_keyboard_event.html" title="Basic keyboard event. " alt="" coords="5,80,115,107"/>
+<area shape="rect" id="node3" href="$class_menu_event.html" title="Basic menu event. " alt="" coords="140,80,228,107"/>
+<area shape="rect" id="node4" href="$class_mouse_event.html" title="Basic mouse event. " alt="" coords="253,80,347,107"/>
+</map>

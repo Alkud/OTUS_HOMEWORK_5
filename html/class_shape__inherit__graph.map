@@ -1,0 +1,6 @@
+<map id="Shape" name="Shape">
+<area shape="rect" id="node2" href="$class_ellipse.html" title="Basic ellipse defined by two semi axes. " alt="" coords="5,80,67,107"/>
+<area shape="rect" id="node4" href="$class_line.html" title="Basic straight line defined by two points. " alt="" coords="91,80,137,107"/>
+<area shape="rect" id="node5" href="$class_rectangle.html" title="Basic rectangle defined by two opposite corner points. " alt="" coords="162,80,243,107"/>
+<area shape="rect" id="node3" href="$class_circle.html" title="Circle as a special case of the ellipse. " alt="" coords="8,155,63,181"/>
+</map>

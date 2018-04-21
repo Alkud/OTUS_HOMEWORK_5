@@ -1,0 +1,11 @@
+<map id="library/gui_elements.h" name="library/gui_elements.h">
+<area shape="rect" id="node2" href="$vector__editor_8cpp.html" title="vector_editor.cpp" alt="" coords="5,229,128,256"/>
+<area shape="rect" id="node3" href="$events_8h.html" title="library/events.h" alt="" coords="235,80,345,107"/>
+<area shape="rect" id="node7" href="$shapes_8h.html" title="library/shapes.h" alt="" coords="388,80,503,107"/>
+<area shape="rect" id="node8" href="$document_8h.html" title="library/document.h" alt="" coords="551,155,680,181"/>
+<area shape="rect" id="node10" href="$gui__elements_8cpp.html" title="library/gui_elements.cpp" alt="" coords="577,80,740,107"/>
+<area shape="rect" id="node4" href="$event__processor_8h.html" title="library/event_processor.h" alt="" coords="207,155,375,181"/>
+<area shape="rect" id="node6" href="$events_8cpp.html" title="library/events.cpp" alt="" coords="57,155,183,181"/>
+<area shape="rect" id="node5" href="$event__processor_8cpp.html" title="library/event_processor.cpp" alt="" coords="199,229,381,256"/>
+<area shape="rect" id="node9" href="$shapes_8cpp.html" title="library/shapes.cpp" alt="" coords="399,155,527,181"/>
+</map>
