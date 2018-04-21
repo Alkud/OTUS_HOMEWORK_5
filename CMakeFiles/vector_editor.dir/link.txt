@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/vector_editor.dir/vector_editor.cpp.o  -o vector_editor libgui_elements.a libevent_processor.a libevents.a libshapes.a libgui_elements.a 

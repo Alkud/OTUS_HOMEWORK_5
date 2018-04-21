@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/gui_elements.h
+string
+-
+vector
+-
+memory
+-
+
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/shapes.cpp
+shapes.h
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/shapes.h
+
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/shapes.h
+gui_elements.h
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/gui_elements.h
+

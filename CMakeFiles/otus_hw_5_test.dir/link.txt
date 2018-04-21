@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/otus_hw_5_test.dir/otus_hw_5_test.cpp.o  -o otus_hw_5_test -lboost_unit_test_framework libevent_processor.a libevents.a libshapes.a libgui_elements.a 

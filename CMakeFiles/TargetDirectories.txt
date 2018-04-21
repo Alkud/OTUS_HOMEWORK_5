@@ -1,0 +1,16 @@
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/install/local.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/install.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/install/strip.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/list_install_components.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/rebuild_cache.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/gui_elements.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/events.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/edit_cache.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/event_processor.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/package_source.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/document.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/shapes.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/vector_editor.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/otus_hw_5_test.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/package.dir
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/test.dir

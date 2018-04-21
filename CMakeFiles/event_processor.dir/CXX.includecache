@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/event_processor.cpp
+event_processor.h
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/event_processor.h
+
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/event_processor.h
+events.h
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/events.h
+shapes.h
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/shapes.h
+deque
+-
+memory
+-
+
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/events.h
+gui_elements.h
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/gui_elements.h
+vector
+-
+
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/gui_elements.h
+string
+-
+vector
+-
+memory
+-
+
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/shapes.h
+gui_elements.h
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/gui_elements.h
+

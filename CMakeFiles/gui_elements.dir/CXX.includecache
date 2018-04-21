@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/gui_elements.cpp
+gui_elements.h
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/gui_elements.h
+
+/home/travis/build/Alkud/OTUS_HOMEWORK_5/library/gui_elements.h
+string
+-
+vector
+-
+memory
+-
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libevent_processor.a  CMakeFiles/event_processor.dir/library/event_processor.cpp.o
+/usr/bin/ranlib libevent_processor.a

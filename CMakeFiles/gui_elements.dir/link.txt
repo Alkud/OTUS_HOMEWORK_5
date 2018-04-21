@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgui_elements.a  CMakeFiles/gui_elements.dir/library/gui_elements.cpp.o
+/usr/bin/ranlib libgui_elements.a
