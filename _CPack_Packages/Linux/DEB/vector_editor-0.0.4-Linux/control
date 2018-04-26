@@ -1,9 +1,9 @@
 Package: vector_editor
-Version: 0.0.3
+Version: 0.0.4
 Section: devel
 Priority: optional
 Architecture: amd64
-Installed-Size: 233
+Installed-Size: 237
 Maintainer: alexandr_kudinov@mail.ru
 Description: vector_editor built using CMake
 

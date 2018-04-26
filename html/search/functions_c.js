@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['setview',['setView',['../class_document.html#a5d1dde4a292f12cb4d287563813cf392',1,'Document']]],
-  ['show',['show',['../class_g_u_i_element.html#a8342da0978430637b670c0cec4fc8d7b',1,'GUIElement::show()'],['../class_window.html#a1fcba2f417612ee25dbeadb5597ba4d3',1,'Window::show()'],['../class_menu_item.html#a91d12ef616eecc7c06f934c374b7d5a5',1,'MenuItem::show()'],['../class_menu.html#a64a111e9b32e14ed9791aff7cf8544d4',1,'Menu::show()'],['../class_button.html#a021ac875c568da82d71de3c49d98d860',1,'Button::show()']]]
+  ['receivefromdatabase',['receiveFromDatabase',['../class_document.html#a6d9d11f440a24893db68e35d56a5ba65',1,'Document']]],
+  ['rectangle',['Rectangle',['../class_rectangle.html#a4db2b3639dd9ab2f628e418f89c93b41',1,'Rectangle::Rectangle()=delete'],['../class_rectangle.html#a51a72db98db1d6aa281cc7d9c7b50277',1,'Rectangle::Rectangle(Point _leftTop, Point _rightBottom, int _thickness=1, Color _lineColor=Color{0, 0, 0})']]],
+  ['refreshview',['refreshView',['../class_document.html#a00391c4914e83b09bb1e1de9fa1475df',1,'Document']]],
+  ['removeshape',['removeShape',['../class_document.html#a63dafcf07e94dd4cc9fa51fdcd2eb098',1,'Document']]],
+  ['replaceshapes',['replaceShapes',['../class_document.html#a4c416c607bf1dad0871a1621321ed399',1,'Document']]]
 ];

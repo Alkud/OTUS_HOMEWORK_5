@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_rectangle-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Rectangle Class Reference</div>  </div>
@@ -108,17 +108,17 @@ Collaboration diagram for Rectangle:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_rectangle__coll__graph.png" border="0" usemap="#_rectangle_coll__map" alt="Collaboration graph"/></div>
 <map name="_rectangle_coll__map" id="_rectangle_coll__map">
-<area shape="rect" id="node2" href="class_shape.html" title="Shape interface class. " alt="" coords="5,5,63,32"/><area shape="rect" id="node3" href="struct_point.html" title="Point coordinates. " alt="" coords="89,5,140,32"/></map>
+<area shape="rect" id="node2" href="class_shape.html" title="Shape interface class. " alt="" coords="5,96,63,123"/><area shape="rect" id="node3" href="struct_color.html" title="RGB color data. " alt="" coords="8,5,61,32"/><area shape="rect" id="node4" href="struct_point.html" title="Point coordinates. " alt="" coords="89,96,140,123"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4db2b3639dd9ab2f628e418f89c93b41"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rectangle.html#a4db2b3639dd9ab2f628e418f89c93b41">Rectangle</a> ()=delete</td></tr>
 <tr class="separator:a4db2b3639dd9ab2f628e418f89c93b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25b2ed766a448e5d03e7d06911cd68e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rectangle.html#a25b2ed766a448e5d03e7d06911cd68e8">Rectangle</a> (<a class="el" href="struct_point.html">Point</a> _leftTop, <a class="el" href="struct_point.html">Point</a> _rightBottom, int _thickness=1)</td></tr>
-<tr class="separator:a25b2ed766a448e5d03e7d06911cd68e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae2e4f3395c57fea2b8a334fee9b243e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rectangle.html#aae2e4f3395c57fea2b8a334fee9b243e">~Rectangle</a> ()</td></tr>
-<tr class="separator:aae2e4f3395c57fea2b8a334fee9b243e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a72db98db1d6aa281cc7d9c7b50277"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rectangle.html#a51a72db98db1d6aa281cc7d9c7b50277">Rectangle</a> (<a class="el" href="struct_point.html">Point</a> _leftTop, <a class="el" href="struct_point.html">Point</a> _rightBottom, int _thickness=1, <a class="el" href="struct_color.html">Color</a> _lineColor=<a class="el" href="struct_color.html">Color</a>{0, 0, 0})</td></tr>
+<tr class="separator:a51a72db98db1d6aa281cc7d9c7b50277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a494c076b13aadf26efdce07d23c61ddd"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rectangle.html#a494c076b13aadf26efdce07d23c61ddd">~Rectangle</a> ()</td></tr>
+<tr class="separator:a494c076b13aadf26efdce07d23c61ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06274d3e5b8a8476b7fce2015b3085aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rectangle.html#a06274d3e5b8a8476b7fce2015b3085aa">paint</a> (<a class="el" href="class_window.html">Window</a> *canvas) override</td></tr>
 <tr class="memdesc:a06274d3e5b8a8476b7fce2015b3085aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drawing a shape.  <a href="#a06274d3e5b8a8476b7fce2015b3085aa">More...</a><br/></td></tr>
 <tr class="separator:a06274d3e5b8a8476b7fce2015b3085aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,15 +128,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8c203f04d62281c3d78a43ef2a0e5c7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_shape_size.html">ShapeSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rectangle.html#a8c203f04d62281c3d78a43ef2a0e5c7c">getSize</a> () override</td></tr>
 <tr class="memdesc:a8c203f04d62281c3d78a43ef2a0e5c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get enclosing rectangle size.  <a href="#a8c203f04d62281c3d78a43ef2a0e5c7c">More...</a><br/></td></tr>
 <tr class="separator:a8c203f04d62281c3d78a43ef2a0e5c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9724c37f03515169beab096f9228a2c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rectangle.html#a9724c37f03515169beab096f9228a2c4">setSize</a> (const <a class="el" href="struct_shape_size.html">ShapeSize</a> &amp;newSize) override</td></tr>
+<tr class="separator:a9724c37f03515169beab096f9228a2c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19e2afee65ecbeb82ead4a35ba3703f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rectangle.html#a19e2afee65ecbeb82ead4a35ba3703f9">getLineColor</a> () override</td></tr>
+<tr class="separator:a19e2afee65ecbeb82ead4a35ba3703f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a669a6c55c78e3914e85d363968a6e6c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rectangle.html#a669a6c55c78e3914e85d363968a6e6c6">setLineColor</a> (const <a class="el" href="struct_color.html">Color</a> &amp;newColor) override</td></tr>
+<tr class="separator:a669a6c55c78e3914e85d363968a6e6c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
 <tr class="memitem:ab5a48492d8c606f0d07b94cf477454d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_point.html">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rectangle.html#ab5a48492d8c606f0d07b94cf477454d2">leftTop</a></td></tr>
 <tr class="separator:ab5a48492d8c606f0d07b94cf477454d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3927e594dd832e199dfc25c162413d68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_point.html">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rectangle.html#a3927e594dd832e199dfc25c162413d68">rightBottom</a></td></tr>
 <tr class="separator:a3927e594dd832e199dfc25c162413d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63a153b531e65eaa1654dd30da56ed76"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rectangle.html#a63a153b531e65eaa1654dd30da56ed76">lineThickness</a></td></tr>
-<tr class="separator:a63a153b531e65eaa1654dd30da56ed76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_shape"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_shape')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_shape.html">Shape</a></td></tr>
+<tr class="memitem:ad9657988380307810c0b4733813ed4c5 inherit pro_attribs_class_shape"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#ad9657988380307810c0b4733813ed4c5">lineThickness</a></td></tr>
+<tr class="separator:ad9657988380307810c0b4733813ed4c5 inherit pro_attribs_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3905a32280c6a2c60b2ed725341a73b2 inherit pro_attribs_class_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a3905a32280c6a2c60b2ed725341a73b2">lineColor</a></td></tr>
+<tr class="separator:a3905a32280c6a2c60b2ed725341a73b2 inherit pro_attribs_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_class_shape"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_shape')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_shape.html">Shape</a></td></tr>
+<tr class="memitem:a3e0bfd21c06d33f21f8fa5a69f0f792a inherit pro_methods_class_shape"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a3e0bfd21c06d33f21f8fa5a69f0f792a">Shape</a> (int _thickness=1, <a class="el" href="struct_color.html">Color</a> _lineColor=<a class="el" href="struct_color.html">Color</a>{0, 0, 0})</td></tr>
+<tr class="separator:a3e0bfd21c06d33f21f8fa5a69f0f792a inherit pro_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a935afc9e576015f967d90de56977167d inherit pro_methods_class_shape"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a935afc9e576015f967d90de56977167d">~Shape</a> ()</td></tr>
+<tr class="separator:a935afc9e576015f967d90de56977167d inherit pro_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Basic rectangle defined by two opposite corner points. </p>
@@ -164,7 +181,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a25b2ed766a448e5d03e7d06911cd68e8"></a>
+<a class="anchor" id="a51a72db98db1d6aa281cc7d9c7b50277"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -184,7 +201,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>_thickness</em> = <code>1</code>&#160;</td>
+          <td class="paramname"><em>_thickness</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_color.html">Color</a>&#160;</td>
+          <td class="paramname"><em>_lineColor</em> = <code><a class="el" href="struct_color.html">Color</a>{0,0,0}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -196,7 +219,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aae2e4f3395c57fea2b8a334fee9b243e"></a>
+<a class="anchor" id="a494c076b13aadf26efdce07d23c61ddd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -204,7 +227,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual Rectangle::~Rectangle </td>
+          <td class="memname">Rectangle::~Rectangle </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -220,6 +243,31 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a19e2afee65ecbeb82ead4a35ba3703f9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_color.html">Color</a> Rectangle::getLineColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="class_shape.html#ab7959e2f219f87455987207ffa7f82d1">Shape</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a8c203f04d62281c3d78a43ef2a0e5c7c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -313,27 +361,75 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a669a6c55c78e3914e85d363968a6e6c6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Rectangle::setLineColor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_color.html">Color</a> &amp;&#160;</td>
+          <td class="paramname"><em>newColor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="class_shape.html#aa02f339ce7fa5ec339994b42e2047e41">Shape</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9724c37f03515169beab096f9228a2c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Rectangle::setSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_shape_size.html">ShapeSize</a> &amp;&#160;</td>
+          <td class="paramname"><em>newSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="class_shape.html#a3296ee3dba3539f8ec04366a0792be79">Shape</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="ab5a48492d8c606f0d07b94cf477454d2"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="struct_point.html">Point</a> Rectangle::leftTop</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a63a153b531e65eaa1654dd30da56ed76"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Rectangle::lineThickness</td>
-        </tr>
-      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -341,11 +437,19 @@ Public Attributes</h2></td></tr>
 <a class="anchor" id="a3927e594dd832e199dfc25c162413d68"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="struct_point.html">Point</a> Rectangle::rightBottom</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

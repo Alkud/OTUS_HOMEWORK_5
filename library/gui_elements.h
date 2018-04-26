@@ -3,6 +3,11 @@
 #include <vector>
 #include <memory>
 
+class Picture
+{
+
+};
+
 /// GUI element interface class
 class GUIElement
 {
@@ -18,6 +23,8 @@ public:
   virtual void show() = 0;
   /// Hide element from the screen
   virtual void hide() = 0;
+
+  virtual Picture getPicture() = 0;
 
   /// Text shown in the element header
   std::string title;
@@ -50,6 +57,8 @@ public:
   virtual void hide() override;
   /// Add a child element
   virtual void addChild(const std::shared_ptr<GUIElement>& _child);
+
+  Picture getPicture() override;
 };
 
 
@@ -64,6 +73,8 @@ public:
   virtual void show() override;
   virtual void hide() override;
   virtual void addSubItem(const std::shared_ptr<MenuItem>& _subItem);
+
+  Picture getPicture() override;
 
   /// Unique menu item ID
   int id;
@@ -83,6 +94,8 @@ public:
   virtual void hide() override;
   virtual void addItem(const std::shared_ptr<MenuItem>& _item);
 
+  Picture getPicture() override;
+
   std::vector<std::shared_ptr<MenuItem>> items;
 };
 
@@ -97,4 +110,6 @@ public:
   virtual void paint() override;
   virtual void show() override;
   virtual void hide() override;
+
+  Picture getPicture() override;
 };

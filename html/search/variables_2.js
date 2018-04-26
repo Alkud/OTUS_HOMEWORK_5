@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['endpoint',['endPoint',['../class_line.html#a0f0e8c3be10333d484921440edd2bdda',1,'Line']]],
-  ['eventqueue',['eventQueue',['../class_event_processor.html#af6c9b1ffa70925ee89f1e9faf62da993',1,'EventProcessor']]]
+  ['description',['description',['../class_mouse_event.html#ae5d7903deb7065823c72f3aaa48406f2',1,'MouseEvent::description()'],['../class_keyboard_event.html#ace1f981ddf906be66807bfb25cbf7d88',1,'KeyboardEvent::description()']]]
 ];

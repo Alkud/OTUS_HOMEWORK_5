@@ -92,6 +92,7 @@ otus_hw_5_test: CMakeFiles/otus_hw_5_test.dir/otus_hw_5_test.cpp.o
 otus_hw_5_test: CMakeFiles/otus_hw_5_test.dir/build.make
 otus_hw_5_test: /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so
 otus_hw_5_test: libevent_processor.a
+otus_hw_5_test: libdocument.a
 otus_hw_5_test: libevents.a
 otus_hw_5_test: libshapes.a
 otus_hw_5_test: libgui_elements.a

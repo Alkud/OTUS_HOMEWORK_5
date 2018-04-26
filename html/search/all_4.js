@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ellipse',['Ellipse',['../class_ellipse.html',1,'Ellipse'],['../class_ellipse.html#accf71158661908390b844fe673a60a2e',1,'Ellipse::Ellipse()=delete'],['../class_ellipse.html#aafaa4bc0f92ee7130cdfce1836b81e75',1,'Ellipse::Ellipse(Point _center, int _semiMajor, int _semiMinor, int _thickness=1)'],['../shapes_8h.html#a5a4538eeab397888d88a4eefcc5a1345a119518c2134c46108179369f0ce81fa2',1,'Ellipse():&#160;shapes.h']]],
+  ['ellipse',['Ellipse',['../class_ellipse.html',1,'Ellipse'],['../class_ellipse.html#accf71158661908390b844fe673a60a2e',1,'Ellipse::Ellipse()=delete'],['../class_ellipse.html#a0d03c99add78db5c380dd9ea4e2ac735',1,'Ellipse::Ellipse(Point _center, int _semiMajor, int _semiMinor, int _thickness=1, Color _lineColor=Color{0, 0, 0})'],['../shapes_8h.html#a5a4538eeab397888d88a4eefcc5a1345a119518c2134c46108179369f0ce81fa2',1,'Ellipse():&#160;shapes.h']]],
   ['endpoint',['endPoint',['../class_line.html#a0f0e8c3be10333d484921440edd2bdda',1,'Line']]],
   ['et_5fkeyboard',['ET_KEYBOARD',['../events_8h.html#a2628ea8d12e8b2563c32f05dc7fff6faae6ebec9d2fe2df8ef759fc8672f7aca9',1,'events.h']]],
   ['et_5fmenu',['ET_MENU',['../events_8h.html#a2628ea8d12e8b2563c32f05dc7fff6faad9e7d65eaabfa07dc28f28691ab90ec9',1,'events.h']]],

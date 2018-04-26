@@ -43,6 +43,11 @@ void Window::addChild(const std::shared_ptr<GUIElement>& _child)
   childs.push_back(_child);
 }
 
+Picture Window::getPicture()
+{
+
+}
+
 /*=========================================================*/
 MenuItem::MenuItem(int _id, std::string _title, GUIElement* _parent) :
   GUIElement{_title, _parent}, id{_id}
@@ -68,6 +73,11 @@ void MenuItem::hide()
 void MenuItem::addSubItem(const std::shared_ptr<MenuItem>& _subItem)
 {
   subItems.push_back(_subItem);
+}
+
+Picture MenuItem::getPicture()
+{
+
 }
 
 /*=========================================================*/
@@ -102,6 +112,11 @@ void Menu::addItem(const std::shared_ptr<MenuItem>& _item)
   items.push_back(_item);
 }
 
+Picture Menu::getPicture()
+{
+
+}
+
 
 /*=========================================================*/
 Button::Button(std::string _title, GUIElement* _parent) :
@@ -125,4 +140,9 @@ void Button::hide()
 {
   visible = false;
   paint();
+}
+
+Picture Button::getPicture()
+{
+
 }

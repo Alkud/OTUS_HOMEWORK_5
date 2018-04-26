@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_document-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Document Class Reference</div>  </div>
@@ -103,9 +103,15 @@ Collaboration diagram for Document:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0f8ac12807882b7ffe22d05bdb739bb4"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_shape.html">Shape</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#a0f8ac12807882b7ffe22d05bdb739bb4">createNewShape</a> ()</td></tr>
-<tr class="memdesc:a0f8ac12807882b7ffe22d05bdb739bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new shape according to the currntly selected type.  <a href="#a0f8ac12807882b7ffe22d05bdb739bb4">More...</a><br/></td></tr>
-<tr class="separator:a0f8ac12807882b7ffe22d05bdb739bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdbcbe550084e8c20f4f67eb229ad66a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#acdbcbe550084e8c20f4f67eb229ad66a">Document</a> ()</td></tr>
+<tr class="separator:acdbcbe550084e8c20f4f67eb229ad66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a093fc322b403d926d4e7af976ffb2960"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#a093fc322b403d926d4e7af976ffb2960">Document</a> (const <a class="el" href="class_document.html">Document</a> &amp;other)</td></tr>
+<tr class="separator:a093fc322b403d926d4e7af976ffb2960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc61416dbfee762414f77eba36883ea4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#afc61416dbfee762414f77eba36883ea4">Document</a> (<a class="el" href="class_document.html">Document</a> &amp;&amp;other)</td></tr>
+<tr class="separator:afc61416dbfee762414f77eba36883ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b1c14e8aa43114befc5feb14ac75b8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_shape.html">Shape</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#a83b1c14e8aa43114befc5feb14ac75b8">createNewShape</a> ()</td></tr>
+<tr class="memdesc:a83b1c14e8aa43114befc5feb14ac75b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new shape according to the currntly selected type.  <a href="#a83b1c14e8aa43114befc5feb14ac75b8">More...</a><br/></td></tr>
+<tr class="separator:a83b1c14e8aa43114befc5feb14ac75b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a197043157341f51c1ed96cbb8804d8a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#a197043157341f51c1ed96cbb8804d8a6">addShape</a> (const std::shared_ptr&lt; <a class="el" href="class_shape.html">Shape</a> &gt; &amp;_shape)</td></tr>
 <tr class="memdesc:a197043157341f51c1ed96cbb8804d8a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add new item to the shape list.  <a href="#a197043157341f51c1ed96cbb8804d8a6">More...</a><br/></td></tr>
 <tr class="separator:a197043157341f51c1ed96cbb8804d8a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,9 +124,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a00391c4914e83b09bb1e1de9fa1475df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#a00391c4914e83b09bb1e1de9fa1475df">refreshView</a> ()</td></tr>
 <tr class="memdesc:a00391c4914e83b09bb1e1de9fa1475df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Redraw the view canvas.  <a href="#a00391c4914e83b09bb1e1de9fa1475df">More...</a><br/></td></tr>
 <tr class="separator:a00391c4914e83b09bb1e1de9fa1475df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a77757a1b5948f43d71e6a8a69044d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#a1a77757a1b5948f43d71e6a8a69044d3">sendToDatabase</a> ()</td></tr>
+<tr class="separator:a1a77757a1b5948f43d71e6a8a69044d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d9d11f440a24893db68e35d56a5ba65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#a6d9d11f440a24893db68e35d56a5ba65">receiveFromDatabase</a> ()</td></tr>
+<tr class="separator:a6d9d11f440a24893db68e35d56a5ba65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0390409f015828dbc9f5b62eb859b482"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#a0390409f015828dbc9f5b62eb859b482">saveToFile</a> (const std::string &amp;fileName)</td></tr>
+<tr class="separator:a0390409f015828dbc9f5b62eb859b482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a564605ff2e6e0147656428bb65b7ec3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#a564605ff2e6e0147656428bb65b7ec3d">loadFromFile</a> (const std::string &amp;fileName)</td></tr>
+<tr class="separator:a564605ff2e6e0147656428bb65b7ec3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab135446a32dc86ee912e93a1355aab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#aeab135446a32dc86ee912e93a1355aab">modifyShape</a> (<a class="el" href="class_shape.html">Shape</a> *shapeToModifiy, int newThickness, <a class="el" href="struct_color.html">Color</a> newColor)</td></tr>
+<tr class="separator:aeab135446a32dc86ee912e93a1355aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c416c607bf1dad0871a1621321ed399"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#a4c416c607bf1dad0871a1621321ed399">replaceShapes</a> (<a class="el" href="shapes_8h.html#a5a4538eeab397888d88a4eefcc5a1345">ShapeType</a> typeToReplace, <a class="el" href="shapes_8h.html#a5a4538eeab397888d88a4eefcc5a1345">ShapeType</a> newType, int filterSize, <a class="el" href="struct_color.html">Color</a> filterColor)</td></tr>
+<tr class="separator:a4c416c607bf1dad0871a1621321ed399"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e6571292a444a234e0fc6c049c1f7d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_document.html">Document</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#a9e6571292a444a234e0fc6c049c1f7d4">operator=</a> (const <a class="el" href="class_document.html">Document</a> &amp;other)</td></tr>
+<tr class="separator:a9e6571292a444a234e0fc6c049c1f7d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06b54dd1741d3a791df09a2e0a21fb62"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#a06b54dd1741d3a791df09a2e0a21fb62">operator==</a> (const <a class="el" href="class_document.html">Document</a> &amp;other)</td></tr>
+<tr class="separator:a06b54dd1741d3a791df09a2e0a21fb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
 <tr class="memitem:a37bac5a31d391b5157f6ed48bc14e4ad"><td class="memItemLeft" align="right" valign="top">std::list&lt; std::shared_ptr<br class="typebreak"/>
 &lt; <a class="el" href="class_shape.html">Shape</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document.html#a37bac5a31d391b5157f6ed48bc14e4ad">shapes</a></td></tr>
 <tr class="memdesc:a37bac5a31d391b5157f6ed48bc14e4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains shapes consisting the drawing.  <a href="#a37bac5a31d391b5157f6ed48bc14e4ad">More...</a><br/></td></tr>
@@ -134,7 +156,63 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains drawing elements description, creates and destroys shapes </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="acdbcbe550084e8c20f4f67eb229ad66a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Document::Document </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a093fc322b403d926d4e7af976ffb2960"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Document::Document </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_document.html">Document</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afc61416dbfee762414f77eba36883ea4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Document::Document </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_document.html">Document</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a197043157341f51c1ed96cbb8804d8a6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -153,12 +231,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0f8ac12807882b7ffe22d05bdb739bb4"></a>
+<a class="anchor" id="a83b1c14e8aa43114befc5feb14ac75b8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="class_shape.html">Shape</a>&gt; Document::createNewShape </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_shape.html">Shape</a> &gt; Document::createNewShape </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -167,6 +245,101 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Create new shape according to the currntly selected type. </p>
+
+</div>
+</div>
+<a class="anchor" id="a564605ff2e6e0147656428bb65b7ec3d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Document::loadFromFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>fileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aeab135446a32dc86ee912e93a1355aab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Document::modifyShape </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_shape.html">Shape</a> *&#160;</td>
+          <td class="paramname"><em>shapeToModifiy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newThickness</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_color.html">Color</a>&#160;</td>
+          <td class="paramname"><em>newColor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9e6571292a444a234e0fc6c049c1f7d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_document.html">Document</a> &amp; Document::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_document.html">Document</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a06b54dd1741d3a791df09a2e0a21fb62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Document::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_document.html">Document</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6d9d11f440a24893db68e35d56a5ba65"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Document::receiveFromDatabase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -205,6 +378,75 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a4c416c607bf1dad0871a1621321ed399"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Document::replaceShapes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="shapes_8h.html#a5a4538eeab397888d88a4eefcc5a1345">ShapeType</a>&#160;</td>
+          <td class="paramname"><em>typeToReplace</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="shapes_8h.html#a5a4538eeab397888d88a4eefcc5a1345">ShapeType</a>&#160;</td>
+          <td class="paramname"><em>newType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>filterSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_color.html">Color</a>&#160;</td>
+          <td class="paramname"><em>filterColor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0390409f015828dbc9f5b62eb859b482"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Document::saveToFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>fileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1a77757a1b5948f43d71e6a8a69044d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Document::sendToDatabase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a5d1dde4a292f12cb4d287563813cf392"></a>
 <div class="memitem">
 <div class="memproto">
@@ -227,11 +469,19 @@ Public Attributes</h2></td></tr>
 <a class="anchor" id="aaf1577a1d9b45e9ddd264ef60a18690a"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="shapes_8h.html#a5a4538eeab397888d88a4eefcc5a1345">ShapeType</a> Document::currentShapeType</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p><a class="el" href="class_shape.html" title="Shape interface class. ">Shape</a> type currently selected by user and used when creating new item. </p>
@@ -241,11 +491,19 @@ Public Attributes</h2></td></tr>
 <a class="anchor" id="a37bac5a31d391b5157f6ed48bc14e4ad"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::list&lt;std::shared_ptr&lt;<a class="el" href="class_shape.html">Shape</a>&gt; &gt; Document::shapes</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Contains shapes consisting the drawing. </p>
@@ -255,19 +513,28 @@ Public Attributes</h2></td></tr>
 <a class="anchor" id="a6b363d4b975179a4a8c3f7fbe7337ec2"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_window.html">Window</a>* Document::view</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>GUI element whos canvas is used to draw. </p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>library/<a class="el" href="document_8h_source.html">document.h</a></li>
+<li>library/<a class="el" href="document_8cpp.html">document.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

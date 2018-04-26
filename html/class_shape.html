@@ -85,6 +85,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_shape-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Shape Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -102,6 +104,13 @@ Inheritance diagram for Shape:</div>
 <map name="_shape_inherit__map" id="_shape_inherit__map">
 <area shape="rect" id="node2" href="class_ellipse.html" title="Basic ellipse defined by two semi axes. " alt="" coords="5,80,67,107"/><area shape="rect" id="node4" href="class_line.html" title="Basic straight line defined by two points. " alt="" coords="91,80,137,107"/><area shape="rect" id="node5" href="class_rectangle.html" title="Basic rectangle defined by two opposite corner points. " alt="" coords="162,80,243,107"/><area shape="rect" id="node3" href="class_circle.html" title="Circle as a special case of the ellipse. " alt="" coords="8,155,63,181"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for Shape:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_shape__coll__graph.png" border="0" usemap="#_shape_coll__map" alt="Collaboration graph"/></div>
+<map name="_shape_coll__map" id="_shape_coll__map">
+<area shape="rect" id="node2" href="struct_color.html" title="RGB color data. " alt="" coords="7,5,60,32"/></map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -114,10 +123,113 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae4c85276cc70f3af1ef1459ee9cf028a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_shape_size.html">ShapeSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#ae4c85276cc70f3af1ef1459ee9cf028a">getSize</a> ()=0</td></tr>
 <tr class="memdesc:ae4c85276cc70f3af1ef1459ee9cf028a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get enclosing rectangle size.  <a href="#ae4c85276cc70f3af1ef1459ee9cf028a">More...</a><br/></td></tr>
 <tr class="separator:ae4c85276cc70f3af1ef1459ee9cf028a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3296ee3dba3539f8ec04366a0792be79"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a3296ee3dba3539f8ec04366a0792be79">setSize</a> (const <a class="el" href="struct_shape_size.html">ShapeSize</a> &amp;newSize)=0</td></tr>
+<tr class="separator:a3296ee3dba3539f8ec04366a0792be79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7959e2f219f87455987207ffa7f82d1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#ab7959e2f219f87455987207ffa7f82d1">getLineColor</a> ()=0</td></tr>
+<tr class="separator:ab7959e2f219f87455987207ffa7f82d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa02f339ce7fa5ec339994b42e2047e41"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#aa02f339ce7fa5ec339994b42e2047e41">setLineColor</a> (const <a class="el" href="struct_color.html">Color</a> &amp;newColor)=0</td></tr>
+<tr class="separator:aa02f339ce7fa5ec339994b42e2047e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a3e0bfd21c06d33f21f8fa5a69f0f792a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a3e0bfd21c06d33f21f8fa5a69f0f792a">Shape</a> (int _thickness=1, <a class="el" href="struct_color.html">Color</a> _lineColor=<a class="el" href="struct_color.html">Color</a>{0, 0, 0})</td></tr>
+<tr class="separator:a3e0bfd21c06d33f21f8fa5a69f0f792a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a935afc9e576015f967d90de56977167d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a935afc9e576015f967d90de56977167d">~Shape</a> ()</td></tr>
+<tr class="separator:a935afc9e576015f967d90de56977167d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ad9657988380307810c0b4733813ed4c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#ad9657988380307810c0b4733813ed4c5">lineThickness</a></td></tr>
+<tr class="separator:ad9657988380307810c0b4733813ed4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3905a32280c6a2c60b2ed725341a73b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a3905a32280c6a2c60b2ed725341a73b2">lineColor</a></td></tr>
+<tr class="separator:a3905a32280c6a2c60b2ed725341a73b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_shape.html" title="Shape interface class. ">Shape</a> interface class. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a3e0bfd21c06d33f21f8fa5a69f0f792a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Shape::Shape </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_thickness</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_color.html">Color</a>&#160;</td>
+          <td class="paramname"><em>_lineColor</em> = <code><a class="el" href="struct_color.html">Color</a>{0,0,0}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a935afc9e576015f967d90de56977167d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Shape::~Shape </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ab7959e2f219f87455987207ffa7f82d1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_color.html">Color</a> Shape::getLineColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_ellipse.html#a10379da51ed0035341bae691136a9759">Ellipse</a>, <a class="el" href="class_rectangle.html#a19e2afee65ecbeb82ead4a35ba3703f9">Rectangle</a>, and <a class="el" href="class_line.html#a1837dc307da96b40cfb0fbf90c3bc8c3">Line</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ae4c85276cc70f3af1ef1459ee9cf028a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -211,8 +323,102 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a class="anchor" id="aa02f339ce7fa5ec339994b42e2047e41"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Shape::setLineColor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_color.html">Color</a> &amp;&#160;</td>
+          <td class="paramname"><em>newColor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_ellipse.html#a52f8fbaf183503aa2ddd2ada889b180f">Ellipse</a>, <a class="el" href="class_rectangle.html#a669a6c55c78e3914e85d363968a6e6c6">Rectangle</a>, and <a class="el" href="class_line.html#ae2e77941a66b26f6e189bcb7dc3f42d7">Line</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3296ee3dba3539f8ec04366a0792be79"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Shape::setSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_shape_size.html">ShapeSize</a> &amp;&#160;</td>
+          <td class="paramname"><em>newSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_ellipse.html#a3f0bb8db34ff877b845af421c9cadd9e">Ellipse</a>, <a class="el" href="class_rectangle.html#a9724c37f03515169beab096f9228a2c4">Rectangle</a>, and <a class="el" href="class_line.html#a766fc7c0efaf869dd8419c22dbef0908">Line</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a3905a32280c6a2c60b2ed725341a73b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_color.html">Color</a> Shape::lineColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad9657988380307810c0b4733813ed4c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Shape::lineThickness</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>library/<a class="el" href="shapes_8h_source.html">shapes.h</a></li>
+<li>library/<a class="el" href="shapes_8cpp.html">shapes.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

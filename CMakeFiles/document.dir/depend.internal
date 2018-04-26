@@ -3,3 +3,6 @@
 
 CMakeFiles/document.dir/library/document.cpp.o
  /home/travis/build/Alkud/OTUS_HOMEWORK_5/library/document.cpp
+ /home/travis/build/Alkud/OTUS_HOMEWORK_5/library/document.h
+ /home/travis/build/Alkud/OTUS_HOMEWORK_5/library/gui_elements.h
+ /home/travis/build/Alkud/OTUS_HOMEWORK_5/library/shapes.h

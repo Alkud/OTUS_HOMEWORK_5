@@ -20,6 +20,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/event_processor.dir/DependInfo.cmake"
+  "/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/document.dir/DependInfo.cmake"
   "/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/events.dir/DependInfo.cmake"
   "/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/shapes.dir/DependInfo.cmake"
   "/home/travis/build/Alkud/OTUS_HOMEWORK_5/CMakeFiles/gui_elements.dir/DependInfo.cmake"

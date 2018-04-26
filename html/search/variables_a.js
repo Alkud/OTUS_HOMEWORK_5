@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['title',['title',['../class_g_u_i_element.html#a23d83a74867bc1744819fcbacad1ec44',1,'GUIElement']]],
-  ['type',['type',['../class_g_u_i_event.html#add936098136579d404468833cd05f05e',1,'GUIEvent']]]
+  ['red',['red',['../struct_color.html#a23da597f23f5403ad76c29a6ebdf5895',1,'Color']]],
+  ['rightbottom',['rightBottom',['../class_rectangle.html#a3927e594dd832e199dfc25c162413d68',1,'Rectangle']]]
 ];

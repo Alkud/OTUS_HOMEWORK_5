@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_point.html" title="Point coordinates. " alt="" coords="6,5,58,32"/>
+<area shape="rect" id="node1" href="$class_g_u_i_event.html" title="Abstract GUI Event. " alt="" coords="5,56,85,83"/>
+<area shape="rect" id="node2" href="$class_keyboard_event.html" title="Basic keyboard event. " alt="" coords="134,5,245,32"/>
+<area shape="rect" id="node3" href="$class_menu_event.html" title="Basic menu event. " alt="" coords="145,56,233,83"/>
+<area shape="rect" id="node4" href="$class_mouse_event.html" title="Basic mouse event. " alt="" coords="142,107,237,133"/>
 </map>

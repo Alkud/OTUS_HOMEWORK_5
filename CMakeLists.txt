@@ -61,6 +61,7 @@ target_link_libraries(shapes gui_elements)
 target_link_libraries(otus_hw_5_test
   ${Boost_LIBRARIES}
   event_processor
+  document
 )
 
 install(TARGETS vector_editor RUNTIME DESTINATION bin)
