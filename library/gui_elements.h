@@ -23,7 +23,7 @@ public:
   virtual void show() = 0;
   /// Hide element from the screen
   virtual void hide() = 0;
-
+  /// Get canvas content as a raster image
   virtual Picture getPicture() = 0;
 
   /// Text shown in the element header
@@ -50,14 +50,18 @@ class Window : public GUIElement
 {
 public:
   Window() = delete;
+  /// Main constructor
   Window(std::string _title, GUIElement* _parent = nullptr);
 
+  /// Draw the element on the screen
   virtual void paint() override;
+  /// Make element visible
   virtual void show() override;
+  /// Hide element from the screen
   virtual void hide() override;
   /// Add a child element
   virtual void addChild(const std::shared_ptr<GUIElement>& _child);
-
+  /// Get canvas content as a raster image
   Picture getPicture() override;
 };
 
@@ -67,17 +71,22 @@ class MenuItem : public GUIElement
 {
 public:
   MenuItem() = delete;
+  /// Main constructor
   MenuItem(int _id, std::string _title, GUIElement* _parent = nullptr);
 
+  /// Draw the element on the screen
   virtual void paint() override;
+  /// Make element visible
   virtual void show() override;
+  /// Hide element from the screen
   virtual void hide() override;
   virtual void addSubItem(const std::shared_ptr<MenuItem>& _subItem);
-
+  /// Get canvas content as a raster image
   Picture getPicture() override;
 
   /// Unique menu item ID
   int id;
+  /// Menu sub-items list
   std::vector<std::shared_ptr<MenuItem>> subItems;
 };
 
@@ -87,15 +96,19 @@ class Menu : public GUIElement
 {
 public:
   Menu() = delete;
+  /// Main constructor
   Menu(std::string _title, GUIElement* _parent = nullptr);
 
+  /// Draw the element on the screen
   virtual void paint() override;
+  /// Make element visible
   virtual void show() override;
+  /// Hide element from the screen
   virtual void hide() override;
   virtual void addItem(const std::shared_ptr<MenuItem>& _item);
-
+  /// Get canvas content as a raster image
   Picture getPicture() override;
-
+  /// Menu items list
   std::vector<std::shared_ptr<MenuItem>> items;
 };
 
@@ -105,11 +118,15 @@ class Button : public GUIElement
 {
 public:
   Button() = delete;
+  /// Main constructor
   Button(std::string _title, GUIElement* _parent = nullptr);
 
+  /// Draw the element on the screen
   virtual void paint() override;
+  /// Make element visible
   virtual void show() override;
+  /// Hide element from the screen
   virtual void hide() override;
-
+  /// Get canvas content as a raster image
   Picture getPicture() override;
 };
