@@ -1,9 +1,21 @@
 #include "shapes.h"
 
+Shape::~Shape()
+{
+
+}
+
+
 /*=========================================================*/
-Line::Line(Point _startPoint, Point _endPoint, int _thickness) :
-  startPoint{_startPoint}, endPoint{_endPoint}, lineThickness{_thickness}
+Line::Line(Point _startPoint, Point _endPoint, int _thickness, Color _lineColor) :
+  Shape{_thickness, _lineColor},
+  startPoint{_startPoint}, endPoint{_endPoint}
 {}
+
+Line::~Line()
+{
+
+}
 
 void Line::paint(Window* canvas)
 {
@@ -20,10 +32,31 @@ ShapeSize Line::getSize()
 
 }
 
+void Line::setSize(const ShapeSize& newSize)
+{
+
+}
+
+Color Line::getLineColor()
+{
+
+}
+
+void Line::setLineColor(const Color& newColor)
+{
+
+}
+
 
 /*=========================================================*/
-Rectangle::Rectangle(Point _leftTop, Point _rightBottom, int thickness) :
-  leftTop{_leftTop}, rightBottom{_rightBottom}, lineThickness{thickness}
+Rectangle::Rectangle(Point _leftTop, Point _rightBottom, int _thickness, Color _lineColor) :
+  Shape{_thickness, _lineColor},
+  leftTop{_leftTop}, rightBottom{_rightBottom}
+{
+
+}
+
+Rectangle::~Rectangle()
 {
 
 }
@@ -43,10 +76,31 @@ ShapeSize Rectangle::getSize()
 
 }
 
+void Rectangle::setSize(const ShapeSize& newSize)
+{
+
+}
+
+Color Rectangle::getLineColor()
+{
+
+}
+
+void Rectangle::setLineColor(const Color& newColor)
+{
+
+}
+
 
 /*=========================================================*/
-Ellipse::Ellipse(Point _center, int _semiMajor, int _semiMinor, int _thickness) :
-  center{_center}, semiMajor{_semiMajor}, semiMinor{_semiMinor}, lineThickness{_thickness}
+Ellipse::Ellipse(Point _center, int _semiMajor, int _semiMinor, int _thickness, Color _lineColor) :
+  Shape{_thickness, _lineColor},
+  center{_center}, semiMajor{_semiMajor}, semiMinor{_semiMinor}
+{
+
+}
+
+Ellipse::~Ellipse()
 {
 
 }
@@ -65,10 +119,31 @@ ShapeSize Ellipse::getSize()
 
 }
 
-
-/*=========================================================*/
-Circle::Circle(Point _center, int _radius, int _thickness) :
-  Ellipse{_center, _radius, _radius, _thickness}
+void Ellipse::setSize(const ShapeSize& newSize)
 {
 
 }
+
+Color Ellipse::getLineColor()
+{
+
+}
+
+void Ellipse::setLineColor(const Color& newColor)
+{
+
+}
+
+
+/*=========================================================*/
+Circle::Circle(Point _center, int _radius, int _thickness, Color _lineColor) :
+  Ellipse{_center, _radius, _radius, _thickness, _lineColor}
+{
+
+}
+
+Circle::~Circle()
+{
+
+}
+
