@@ -30,6 +30,7 @@ class GUIEvent
 {
 public:
   GUIEvent() = delete;
+  /// Main constructor
   GUIEvent(GUIElement* _sender, EventType _type);
   virtual ~GUIEvent() = default;
 
@@ -43,6 +44,7 @@ class MouseEvent : public GUIEvent
 {
 public:
   MouseEvent() = delete;
+  /// Main constructor
   MouseEvent(GUIElement* _sender, int _posX, int _posY);
   ~MouseEvent() = default;
 
@@ -59,6 +61,7 @@ class KeyboardEvent : public GUIEvent
 {
 public:
   KeyboardEvent() = delete;
+  /// Main constructor
   KeyboardEvent(GUIElement* _sender, int _keyCode);
   ~KeyboardEvent() = default;
 
@@ -73,6 +76,7 @@ class MenuEvent : public GUIEvent
 {
 public:
   MenuEvent() = delete;
+  /// Main constructor
   MenuEvent(GUIElement* _sender, int _itemID);
   ~MenuEvent() = default;
 

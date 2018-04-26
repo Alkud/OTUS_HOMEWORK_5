@@ -23,21 +23,21 @@ public:
   void setView(Window* _view);
   /// Redraw the view canvas
   void refreshView();
-
+  /// Send document content to DB
   void sendToDatabase();
-
+  /// Get document content from DB
   void receiveFromDatabase();
-
+  /// Save content to file
   void saveToFile(const std::string& fileName);
-
+  /// Load content from file
   void loadFromFile(const std::string& fileName);
-
+  /// Specified shape modification (change color, line thicknes, ...)
   void modifyShape(Shape* shapeToModifiy, int newThickness, Color newColor);
-
+  /// Replace shapes of a specified type, having specified size and color, with a new type of shape
   void replaceShapes(ShapeType typeToReplace, ShapeType newType, int filterSize, Color filterColor);
-
+  /// Copy assignment
   Document& operator=(const Document& other);
-
+  /// Check equality
   bool operator==(const Document& other);
 
 
